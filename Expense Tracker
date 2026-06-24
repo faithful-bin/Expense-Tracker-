@@ -1,1 +1,11 @@
 
+print("Welcome to Expense Tracker!")
+
+expense = input("What did you buy? ")
+amount = float(input("How much did it cost? "))
+
+print()
+
+print("Expense Recorded")
+print("Item:", expense)
+print("Amount: ₦", amount)
